@@ -1,17 +1,22 @@
+*{box-sizing: border-box;}
+
 header {
     background-color: rgb(65, 63, 63);
-  
+    margin-bottom: 30px;
+    height: 140px;
+    align-items: center;
 }
 
 nav ul li {
+
 display: inline-block;
 color: blanchedalmond;
 
 }
+#hero{
+   padding :30px;
+    width: 90%;
 
-footer{
-    background-color: rgb(65, 63, 63);
-}
 
 #left {
     float: left;
@@ -29,6 +34,33 @@ body{
     background-color: rgb(248, 244, 244);
 
 }
-img{
+.img{
     padding: 30px;
 }
+/*#heimg{
+    width: 100%;
+}
+*/
+footer{
+    background-color: rgb(65, 63, 63);
+    height: 100px;
+   margin: 130px;
+    
+}
+
+#subbanner {
+    padding: 30px 0;
+}
+
+#call{
+    text-align: center;
+    color: gray;
+  
+
+        color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 11px; border-radius: 7px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(129, 129, 129) 0%, rgb(124, 127, 129) 50%, rgb(133, 136, 138) 100%); box-shadow: rgba(0, 0, 0, 0.33) -12px -4px 29px 8px; border: 2px solid rgb(90, 92, 94); display: inline-block;}
+        .myButton:hover {
+        background: #242525; }
+        .myButton:active {
+        background: #c4c8ca; 
+}
+
