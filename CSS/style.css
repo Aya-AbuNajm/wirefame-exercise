@@ -5,7 +5,8 @@ header {
 
 nav ul li {
 display: inline-block;
-padding: 100 PX;
+color: blanchedalmond;
+
 }
 
 footer{
@@ -23,6 +24,11 @@ footer{
 
 body{
     padding: 30px;
-    margin: 30px 0;
+    margin: 50px 0;
     align-items: center;
+    background-color: rgb(248, 244, 244);
+
+}
+img{
+    padding: 30px;
 }
